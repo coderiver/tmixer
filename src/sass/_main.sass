@@ -1,1 +1,253 @@
 // Normally mainpage styles
+.out
+	width: 1100px 
+	margin: 0 auto
+
+.header
+	border-bottom: 1px solid #ccc
+	position: relative
+	// margin-bottom: 50px 
+	z-index: 20 
+	&__lang
+		position: absolute
+		top: 16px 
+		right: 0
+		text-align: right
+		a
+			color: #ccc
+			text-decoration: none
+			margin-left: 10px 
+			&.is-active,&:hover
+				color: #000 
+	&__search
+		position: absolute
+		top: 10px 
+		right: 100px
+		input
+			border-bottom: 1px solid #000 
+			height: 23px 
+		button
+			background: none
+			font-size: 15px  
+			position: absolute
+			right: 0
+			top: 0  
+	&__user
+		position: absolute
+		top: 50px 
+		right: 0
+		font-size: 16px 
+		a
+			color: #000 
+			margin-left: 15px 
+			text-decoration: none
+		i
+			font-size: 20px 
+			margin-right: 5px 
+	&__logo
+		font-family: Georgia,serif
+		font-size: 70px  
+		font-weight: normal
+	.nav
+		border-top: 1px solid #ccc
+		li
+			display: inline-block
+			position: relative
+			&:hover
+				&>a
+					text-decoration: underline
+					background: #000
+					color: #fff  
+				.nav__dropdown
+					display: block
+			a
+				display: inline-block
+				padding: 0px 20px
+				height: 50px
+				line-height: 50px  
+				font-size: 16px  
+				text-transform: uppercase
+				font-family: Georgia,serif 
+				text-decoration: none
+				color: #000 
+				margin-right: 15px 
+				&:hover
+					text-decoration: underline
+					background: #000
+					color: #fff  
+			.nav__dropdown
+				display: none
+				position: absolute
+				top: 51px
+				left: 0 
+				width: 200px 
+				background: #fafafa
+				box-shadow: 1px 1px 2px rgba(#000,.3) 
+				a
+					margin: 0 
+					display: block
+				dd
+					font-size: 13px 
+				&.is-special
+					width: 600px 
+					padding: 0 0 15px 0 
+					dl
+						float: left
+						width: 50% 
+					a
+						display: block
+						margin-right: 0
+						height: auto
+						line-height: 1
+						text-transform: none 
+						&:hover
+							background: none
+							color: #000  
+					dt
+						font-weight: normal	
+						margin-bottom: 6px 
+						padding: 10px 0 
+						a
+							font-size: 21px 
+							color: #999 
+					dd
+						margin-bottom: 7px 
+.banner
+	position: relative
+	margin-bottom: 40px 
+	&__next,&__prev
+		position: absolute
+		top: 50%
+		left: 10px
+		color: #fff 
+		font-size: 50px 
+		transform: translate(0,-50%)
+		cursor: pointer
+	&__next
+		right: 10px
+		left: auto 
+	.banner__slide
+		color: #fff 
+		height: 50vh
+		text-align: center
+		+box
+		padding-top: 60px 
+		background-size: cover 
+		padding-left: 100px 
+		padding-right: 100px 
+	p
+		font-size: 18px 
+	h1
+		font-size: 40px 
+		margin-bottom: 15px 
+		
+.list
+	margin-bottom: 60px 	
+	overflow: hidden
+	h2
+		font-size: 33px 	
+		font-family: Georgia, serif
+		position: relative
+		margin-bottom: 20px 
+		a
+			font-size: 14px 
+			position: absolute
+			right: 0
+			bottom: 0
+			color: #f60   
+.item
+	float: left
+	width: 25% 
+	text-decoration: none
+	position: relative
+	color: #000 
+	&:hover
+		.item__title
+			text-decoration: underline
+		.item__pic
+			transform: translate(0, -10px)
+	&__pic
+		transition: all .2s linear
+	&__title
+		font-size: 18px 
+		font-weight: normal
+		font-family: Georgia,serif 
+		display: inline-block
+	&__price
+		font-family: Georgia,serif 
+		position: absolute
+		left: 50%
+		top: 0
+		transform: rotate(-35deg)
+		background: #f60
+		color: #fff
+		padding: 5px    
+		display: inline-block 
+.theme
+	float: left
+	width: 20%
+	text-align: center
+	text-decoration: none
+	color: #000 
+	padding: 15px 0 0 0 
+	.theme__pic
+		transition: all .2s linear
+	&:hover
+		.theme__pic
+			transform: translate(0, -10px)
+
+	&__title
+		font-size: 18px 
+		font-weight: normal
+		font-family: Georgia,serif 
+		display: inline-block
+
+.promo
+	margin: 50px 0
+	text-align: center
+	border: 5px dashed #ccc 
+	padding: 40px 0 
+	a
+		display: inline-block
+		width: 35% 
+		border-radius: 10px
+		padding: 15px 36px
+		font-size: 30px   
+		font-family: Georgia,serif
+		+g(#f60,darken(#f60,10%)) 
+		color: #fff  
+		text-decoration: none 
+		margin: 0 35px 
+		&:hover
+			+g(darken(#f60,10%),#f60) 
+.footer
+	border-top: 1px solid #ccc
+	padding: 15px  
+	overflow: hidden
+	.footer__col
+		float: left
+		width: 30%
+		h3
+			font-size: 21px 
+			color: #777
+			font-weight: normal
+			margin-bottom: 14px  
+		li
+			margin-bottom: 10px 
+		a
+			color: #000 
+	.footer__copy
+		clear: right
+		float: right
+		padding-top: 10px 
+		color: #777 
+	.footer__socials
+		font-size: 30px 
+		color: #777
+		text-align: right
+		float: right
+		a
+			color: #777 
+			margin-left: 10px 
+			&:hover
+				color: #000 
