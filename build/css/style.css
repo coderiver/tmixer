@@ -139,6 +139,7 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
 .popup { position: fixed; height: 100%; position: fixed; top: 0; left: 0; height: 100%; width: 100%; background: rgba(0, 0, 0, 0.8); z-index: 100; }
 .popup__in { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 300px; background: #fff; padding: 20px; }
+.popup__in img { width: 100%; display: block; }
 
 .account { overflow: hidden; margin: 50px 0; }
 .account__sidebar { float: left; width: 25%; }

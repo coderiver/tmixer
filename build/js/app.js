@@ -32,7 +32,7 @@ $(document).ready(function() {
 		slidesToScroll: 1
 	})
 
-	$('.js-signin').click(function(event) {
+	$('.js-signin,.popup').click(function(event) {
 		$('.popup').toggle();
 		return false
 	});
