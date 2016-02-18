@@ -207,6 +207,10 @@
 	text-align: center
 	border: 5px dashed #ccc 
 	padding: 40px 0 
+	&.promo_ac
+		margin-top: 0
+		a
+			width: 400px 
 	a
 		display: inline-block
 		width: 35% 
@@ -251,3 +255,21 @@
 			margin-left: 10px 
 			&:hover
 				color: #000 
+.popup
+	position: fixed
+	height: 100% 
+	position: fixed
+	top: 0
+	left: 0
+	height: 100%
+	width: 100%
+	background: rgba(#000,.8)  
+	z-index: 100 
+	&__in
+		position: absolute
+		left: 50%
+		top: 50%  
+		transform: translate(-50%,-50%)
+		width: 300px
+		background: #fff  
+		padding: 20px 
