@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="theme-color" content="#fff">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="all" href="css/style.css" >
 	<script src="js/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -94,17 +95,25 @@
 	
 			<div class="banner__slide" style="background-image: url(http://loremflickr.com/800/600)">
 	
-				<h1>Big banner text</h1>
+				<div class="banner__text">
 	
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil dignissimos labore neque autem quis dolor necessitatibus nisi illo similique voluptatum culpa aperiam iusto, unde recusandae inventore ducimus perspiciatis laborum?</p>
+					<h1>Big banner text</h1>
+	
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	
+				</div>
 	
 			</div>
 	
 			<div class="banner__slide" style="background-image: url(http://loremflickr.com/800/600)">
 	
-				<h1>Another big banner text</h1>
+				<div class="banner__text">
 	
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil dignissimos labore neque autem quis dolor necessitatibus nisi illo similique voluptatum culpa aperiam iusto, unde recusandae inventore ducimus perspiciatis laborum?</p>
+					<h1>Big banner text</h1>
+	
+					<p>Lorem ipsum dolor sit amet</p>
+	
+				</div>
 	
 			</div>
 	
@@ -124,7 +133,7 @@
 	
 	<div class="new list">
 	
-		<h2>New stuff <a href="#" class="sublink">See all</a></h2>
+		<h2><i class="fa fa-leaf"></i>New stuff <a href="#" class="sublink">See all</a></h2>
 	
 		<!-- begin item  -->
 	
@@ -132,7 +141,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -150,7 +159,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -168,7 +177,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -186,7 +195,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -208,7 +217,7 @@
 	
 	<div class="selected list">
 	
-		<h2>Selected stuff <a href="#" class="sublink">See all</a></h2>
+		<h2><i class="fa fa-heart"></i>We like this <a href="#" class="sublink">See all</a></h2>
 	
 		<!-- begin item  -->
 	
@@ -216,7 +225,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -234,7 +243,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -252,7 +261,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -270,7 +279,7 @@
 	
 			<div class="item__pic">
 	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
+				<img src="img/t1.jpg" width="150" alt="">
 	
 			</div>
 	
@@ -306,67 +315,95 @@
 	
 	<div class="comp list">
 	
-		<h2>Competition</h2>
+		<h2><i class="fa fa-trophy"></i>Competition</h2>
 	
-		<!-- begin theme  -->
+		<div class="themes">
 	
-		<a href='#' class="theme">
+			<!-- begin theme  -->
 	
-			<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/2c6684b8a36c849672226d3ec762d352.jpeg" width="150" alt="" class="theme__pic">
+			<a href='#' class="theme">
 	
-			<h3 class="theme__title">Competition title</h3>
+				<img src="img/cats.jpg" width="150" alt="" class="theme__pic">
 	
-		</a>
+				<h3 class="theme__title">Competition title</h3>
 	
-		<!-- end theme -->
+				<div class="theme__info">
 	
-		<!-- begin theme  -->
+					<ul>
 	
-		<a href='#' class="theme">
+						<li><i class="fa fa-thumbs-up"></i> 68 designs</li>
 	
-			<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/2c6684b8a36c849672226d3ec762d352.jpeg" width="150" alt="" class="theme__pic">
+						<li><i class="fa fa-trophy"></i> $1k + GC</li>
 	
-			<h3 class="theme__title">Competition title</h3>
+						<li><i class="fa fa-clock-o"></i> 9 days left</li>
 	
-		</a>
+					</ul>
 	
-		<!-- end theme -->
+					<span>submit design</span>
 	
-		<!-- begin theme  -->
+				</div>
 	
-		<a href='#' class="theme">
+			</a>
 	
-			<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/2c6684b8a36c849672226d3ec762d352.jpeg" width="150" alt="" class="theme__pic">
+			<!-- end theme -->
 	
-			<h3 class="theme__title">Competition title</h3>
+			<!-- begin theme  -->
 	
-		</a>
+			<a href='#' class="theme">
 	
-		<!-- end theme -->
+				<img src="img/cats.jpg" width="150" alt="" class="theme__pic">
 	
-		<!-- begin theme  -->
+				<h3 class="theme__title">Competition title</h3>
 	
-		<a href='#' class="theme">
+				<div class="theme__info">
 	
-			<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/2c6684b8a36c849672226d3ec762d352.jpeg" width="150" alt="" class="theme__pic">
+					<ul>
 	
-			<h3 class="theme__title">Competition title</h3>
+						<li><i class="fa fa-thumbs-up"></i> 68 designs</li>
 	
-		</a>
+						<li><i class="fa fa-trophy"></i> $1k + GC</li>
 	
-		<!-- end theme -->
+						<li><i class="fa fa-clock-o"></i> 9 days left</li>
 	
-		<!-- begin theme  -->
+					</ul>
 	
-		<a href='#' class="theme">
+					<span>submit design</span>
 	
-			<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/2c6684b8a36c849672226d3ec762d352.jpeg" width="150" alt="" class="theme__pic">
+				</div>
 	
-			<h3 class="theme__title">Competition title</h3>
+			</a>
 	
-		</a>
+			<!-- end theme -->
 	
-		<!-- end theme -->
+			<!-- begin theme  -->
+	
+			<a href='#' class="theme">
+	
+				<img src="img/cats.jpg" width="150" alt="" class="theme__pic">
+	
+				<h3 class="theme__title">Competition title</h3>
+	
+				<div class="theme__info">
+	
+					<ul>
+	
+						<li><i class="fa fa-thumbs-up"></i> 68 designs</li>
+	
+						<li><i class="fa fa-trophy"></i> $1k + GC</li>
+	
+						<li><i class="fa fa-clock-o"></i> 9 days left</li>
+	
+					</ul>
+	
+					<span>submit design</span>
+	
+				</div>
+	
+			</a>
+	
+			<!-- end theme -->
+	
+		</div>
 	
 	</div>
 	
@@ -376,83 +413,11 @@
 	
 	<!-- begin popular  -->
 	
-	<div class="popular list">
+	<!-- <div class="popular list">
 	
-		<h2>Most voted stuff <a href="#" class="sublink">See all</a></h2>
 	
-		<!-- begin item  -->
 	
-		<a href='voting.html' class="item">
-	
-			<div class="item__pic">
-	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
-	
-			</div>
-	
-			<h3 class="item__title">Some title of t-shirt</h3>
-	
-			<div class="item__price">$79</div>
-	
-		</a>
-	
-		<!-- end item -->
-	
-		<!-- begin item  -->
-	
-		<a href='voting.html' class="item">
-	
-			<div class="item__pic">
-	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
-	
-			</div>
-	
-			<h3 class="item__title">Some title of t-shirt</h3>
-	
-			<div class="item__price">$79</div>
-	
-		</a>
-	
-		<!-- end item -->
-	
-		<!-- begin item  -->
-	
-		<a href='voting.html' class="item">
-	
-			<div class="item__pic">
-	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
-	
-			</div>
-	
-			<h3 class="item__title">Some title of t-shirt</h3>
-	
-			<div class="item__price">$79</div>
-	
-		</a>
-	
-		<!-- end item -->
-	
-		<!-- begin item  -->
-	
-		<a href='voting.html' class="item">
-	
-			<div class="item__pic">
-	
-				<img src="https://d2v48i7nl75u94.cloudfront.net/uploads/a36fe5ca02269b033e22ae506653eee7.jpeg" width="150" alt="">
-	
-			</div>
-	
-			<h3 class="item__title">Some title of t-shirt</h3>
-	
-			<div class="item__price">$79</div>
-	
-		</a>
-	
-		<!-- end item -->
-	
-	</div>
+	</div> -->
 	
 	<!-- end popular -->
 

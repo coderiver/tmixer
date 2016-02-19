@@ -3,12 +3,16 @@
 <div class="banner">
 	<div class="banner__slides">
 		<div class="banner__slide" style="background-image: url(http://loremflickr.com/800/600)">
-			<h1>Big banner text</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil dignissimos labore neque autem quis dolor necessitatibus nisi illo similique voluptatum culpa aperiam iusto, unde recusandae inventore ducimus perspiciatis laborum?</p>
+			<div class="banner__text">
+				<h1>Big banner text</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
 		</div>
 		<div class="banner__slide" style="background-image: url(http://loremflickr.com/800/600)">
-			<h1>Another big banner text</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil dignissimos labore neque autem quis dolor necessitatibus nisi illo similique voluptatum culpa aperiam iusto, unde recusandae inventore ducimus perspiciatis laborum?</p>
+			<div class="banner__text">
+				<h1>Big banner text</h1>
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
 		</div>
 	</div>
 	<div class="banner__next"><i class="fa fa-arrow-right"></i></div>
@@ -18,7 +22,7 @@
 
 <!-- begin new  -->
 <div class="new list">
-	<h2>New stuff <a href="#" class="sublink">See all</a></h2>
+	<h2><i class="fa fa-leaf"></i>New stuff <a href="#" class="sublink">See all</a></h2>
 	//=include item.html
 	//=include item.html
 	//=include item.html
@@ -28,7 +32,7 @@
 
 <!-- begin selected  -->
 <div class="selected list">
-	<h2>Selected stuff <a href="#" class="sublink">See all</a></h2>
+	<h2><i class="fa fa-heart"></i>We like this <a href="#" class="sublink">See all</a></h2>
 	//=include item.html
 	//=include item.html
 	//=include item.html
@@ -45,21 +49,17 @@
 
 <!-- begin comp  -->
 <div class="comp list">
-	<h2>Competition</h2>
-	//=include theme.html
-	//=include theme.html
-	//=include theme.html
-	//=include theme.html
-	//=include theme.html
+	<h2><i class="fa fa-trophy"></i>Competition</h2>
+	<div class="themes">
+		//=include theme.html
+		//=include theme.html
+		//=include theme.html
+	</div>
 </div>
 <!-- end comp -->
 
 <!-- begin popular  -->
-<div class="popular list">
-	<h2>Most voted stuff <a href="#" class="sublink">See all</a></h2>
-	//=include item.html
-	//=include item.html
-	//=include item.html
-	//=include item.html
-</div>
+<!-- <div class="popular list">
+
+</div> -->
 <!-- end popular -->
