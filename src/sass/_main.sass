@@ -48,6 +48,9 @@
 		font-family: Georgia,serif
 		font-size: 70px  
 		font-weight: normal
+		a
+			text-decoration: none
+			color: #000 
 	.nav
 		border-top: 1px solid #ccc
 		li
@@ -228,9 +231,12 @@
 	border-top: 1px solid #ccc
 	padding: 15px  
 	overflow: hidden
+	background: #efefef 
 	.footer__col
 		float: left
-		width: 30%
+		width: 20%
+		&:first-child
+			margin-left: 20px 
 		h3
 			font-size: 21px 
 			color: #777
@@ -238,6 +244,14 @@
 			margin-bottom: 14px  
 		li
 			margin-bottom: 10px 
+			position: relative
+			i
+				vertical-align: middle
+				margin-right: 6px 
+				font-size: 15px 
+				top: 1px 
+				position: absolute
+				left: -1.3em 
 		a
 			color: #000 
 	.footer__copy
@@ -245,6 +259,10 @@
 		float: right
 		padding-top: 10px 
 		color: #777 
+		text-align: right
+		p
+			display: block
+			margin-bottom: 10px 
 	.footer__socials
 		font-size: 30px 
 		color: #777

@@ -81,6 +81,7 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .header__user a { color: #000; margin-left: 15px; text-decoration: none; }
 .header__user i { font-size: 20px; margin-right: 5px; }
 .header__logo { font-family: Georgia, serif; font-size: 70px; font-weight: normal; }
+.header__logo a { text-decoration: none; color: #000; }
 .header .nav { border-top: 1px solid #ccc; }
 .header .nav li { display: inline-block; position: relative; }
 .header .nav li:hover > a { text-decoration: underline; background: #000; color: #fff; }
@@ -127,12 +128,15 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .promo a { display: inline-block; width: 35%; -webkit-border-radius: 10px; border-radius: 10px; padding: 15px 36px; font-size: 30px; font-family: Georgia, serif; background-color: #f60; background-image: -webkit-gradient(linear, left top, left bottom, from(#f60), to(#cc5200)); background-image: -webkit-linear-gradient(#f60, #cc5200); background-image: linear-gradient(#f60, #cc5200); color: #fff; text-decoration: none; margin: 0 35px; }
 .promo a:hover { background-color: #cc5200; background-image: -webkit-gradient(linear, left top, left bottom, from(#cc5200), to(#f60)); background-image: -webkit-linear-gradient(#cc5200, #f60); background-image: linear-gradient(#cc5200, #f60); }
 
-.footer { border-top: 1px solid #ccc; padding: 15px; overflow: hidden; }
-.footer .footer__col { float: left; width: 30%; }
+.footer { border-top: 1px solid #ccc; padding: 15px; overflow: hidden; background: #efefef; }
+.footer .footer__col { float: left; width: 20%; }
+.footer .footer__col:first-child { margin-left: 20px; }
 .footer .footer__col h3 { font-size: 21px; color: #777; font-weight: normal; margin-bottom: 14px; }
-.footer .footer__col li { margin-bottom: 10px; }
+.footer .footer__col li { margin-bottom: 10px; position: relative; }
+.footer .footer__col li i { vertical-align: middle; margin-right: 6px; font-size: 15px; top: 1px; position: absolute; left: -1.3em; }
 .footer .footer__col a { color: #000; }
-.footer .footer__copy { clear: right; float: right; padding-top: 10px; color: #777; }
+.footer .footer__copy { clear: right; float: right; padding-top: 10px; color: #777; text-align: right; }
+.footer .footer__copy p { display: block; margin-bottom: 10px; }
 .footer .footer__socials { font-size: 30px; color: #777; text-align: right; float: right; }
 .footer .footer__socials a { color: #777; margin-left: 10px; }
 .footer .footer__socials a:hover { color: #000; }
